@@ -2,7 +2,7 @@
 The following variables are created based on the instructions and the provided dataset from: 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-The data variable names come from the accelerometer and angular velocity 3-axial raw signals for acceleration in the time domain for axes X,Y and Z (variables containing TimeAcc below) as well as Gyroscopic movement in the time domain along the same axes (variables containing with Gyro in below). 
+The data come from accelerometer and angular velocity 3-axial raw signals in the time domain (variables containing TimeAcc below) as well as Gyroscopic movement in the time domain along the same axes (variables containing with Gyro in below). 
 These time domain signals (prefix Time to denote time) were captured at a constant rate of 50 Hz and filtered using a 3rd order low pass median Butterworth filter with a corner frequency of 20 Hz to remove noise. 
 Similarly, the acceleration signal was then separated into body and gravity acceleration signals (Variables containing TimeBodyAcc and TimeGravityAcc) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
