@@ -18,7 +18,7 @@ Please refer to ReadMe.md and the run_analysis.R code file (including its commen
 
 
 ## **TidyData**
-The dataset stored within the file TidyData.csv is a tidied verson of the source data provided within https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip . Annotation of the variables are presented below together with a reference to the corrensponding source features provided in the original dataset.
+The dataset stored within the file TidyData.txt is a tidied verson of the source data provided within https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip . Annotation of the variables are presented below together with a reference to the corrensponding source features provided in the original dataset.
 
 | Column   Name                     | Data Type | Units   | Source Feature Identity                                                     |
 |-----------------------------------|-----------|---------|-----------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ The dataset stored within the file TidyData.csv is a tidied verson of the source
  
 
 ## **TidyDataMean**
-The dataset TidyData.csv has been transformed to create a second tidy data set called TidyDataMean.csv. The latter shows the mean of all the measurements grouped by subject and activity. Below follows a detailed list of all variables. 
+The dataset TidyData.txt has been transformed to create a second tidy data set called TidyDataMean.txt. The latter shows the mean of all the measurements grouped by subject and activity. Below follows a detailed list of all variables. 
 
 | Column   Name                     | Data Type | Units   |
 |-----------------------------------|-----------|---------|

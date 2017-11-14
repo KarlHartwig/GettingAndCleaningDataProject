@@ -9,8 +9,8 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 The content of the repository can be summarised as follows:
 * run_analysis.R: A R script were the code used to tidy the data is provided together with descriptive comments to guide the reader through the process
 * CodeBook.md: A code book describing the tidied data set and its relationship to the original data is also provided in CodeBook.md
-* TidyData.csv: A tidy data set created by the run_analysis.R
-* TidyDataMean.csv: A second tidy data set containing the mean of each variable grouped according to Subject (person) and Activity conducted
+* TidyData.txt: A tidy data set created by the run_analysis.R
+* TidyDataMean.txt: A second tidy data set containing the mean of each variable grouped according to Subject (person) and Activity conducted
 
 
 ## **Assumptions and notes**

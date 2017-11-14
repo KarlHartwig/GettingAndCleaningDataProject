@@ -1,5 +1,3 @@
-setwd("C:/Users/karl_/CourseraRprogramming/CleaningDataProject")
-
 
 # This code applies the necessary operations to the training and test dataset provided in  
 # https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
@@ -108,6 +106,5 @@ TidyDataMeans<-dcast(MeltedData, Subject + Activity ~ variable, mean)
 ############################################
 # WRITE DATA TO CSV
 ############################################
-write.csv(TidyDataMeans,file="TidyDataMeans.csv")
-write.csv(TidyData,file="TidyData.csv")
-
+write.table(TidyDataMeans,file="TidyDataMeans.txt", row.name=FALSE )
+write.table(TidyData,file="TidyData.txt", row.name=FALSE )
