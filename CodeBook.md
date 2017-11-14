@@ -1,14 +1,14 @@
 # **Code Book**
-The following variables are created based on the instructions and the provided dataset from: 
+The following variables are created based on the dataset:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 The data come from accelerometer and angular velocity 3-axial raw signals in the time domain (variables containing TimeAcc below) as well as Gyroscopic movement in the time domain along the same axes (variables containing with Gyro in below). 
 These time domain signals (prefix Time to denote time) were captured at a constant rate of 50 Hz and filtered using a 3rd order low pass median Butterworth filter with a corner frequency of 20 Hz to remove noise. 
-Similarly, the acceleration signal was then separated into body and gravity acceleration signals (Variables containing TimeBodyAcc and TimeGravityAcc) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+Similarly, the acceleration signal was then separated into body and gravity acceleration signals (Variable names containing TimeBodyAcc and TimeGravityAcc) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
 The body linear acceleration and angular velocity were derived in time to obtain Jerk signals (TimeBodyAccJerk and TimeBodyGyroJerk). The magnitude of these three-dimensional signals were also calculated using the Euclidean norm (TimeBodyAccMag, TimeGravityAccMag, TimeBodyAccJerkMag, TimeBodyGyroMag, TimeBodyGyroJerkMag). 
 
-Finally, a Fast Fourier Transform (FFT) was applied to some of these signals producing FrequencyBodyAcc, FrequencyBodyAccJerk, FrequencyBodyGyro, FrequencyBodyAccJerkMag, FrequencyBodyGyroMag, FrequencyBodyGyroJerkMag.
+Finally, a Fast Fourier Transform (FFT) was applied to some of these signals to produce frequency domain variables FrequencyBodyAcc, FrequencyBodyAccJerk, FrequencyBodyGyro, FrequencyBodyAccJerkMag, FrequencyBodyGyroMag, FrequencyBodyGyroJerkMag.
 
 The units for the acceleration measurements are given in “g”-force units where 1g is equivalent to 9.80665 m/segment2. Hence, the reader should be aware the SI units are not used for annotation below.
 The gyro data is given in radians per segment (rad/seg). 
@@ -106,7 +106,7 @@ The dataset stored within the file TidyData.csv is a tidied verson of the source
  
 
 ## **TidyDataMean**
-The dataset TidyData.csv has been transformed to create a second tidy data set called TidyDataMean.csv. The latter only show the mean of all the measurements grouped by subject and activity. Below follows a detailed list of all variables. 
+The dataset TidyData.csv has been transformed to create a second tidy data set called TidyDataMean.csv. The latter shows the mean of all the measurements grouped by subject and activity. Below follows a detailed list of all variables. 
 
 | Column   Name                     | Data Type | Units   |
 |-----------------------------------|-----------|---------|
